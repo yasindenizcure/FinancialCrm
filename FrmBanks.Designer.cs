@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.lblZiraatBankBalance = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblİsBankBalance = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -49,16 +49,16 @@
             this.lblVakıfBankBalance = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblBankProcess1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lblBankProcess2 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblBankProcess3 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.lblBankProcess4 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.lblBankProcess5 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lblBankProcess4 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblBankProcess3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblBankProcess2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblBankProcess1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -83,41 +83,54 @@
             this.panel1.Size = new System.Drawing.Size(233, 471);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // button8
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(57, 26);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 32);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Kategoriler";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
+            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(57, 384);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(159, 32);
+            this.button8.TabIndex = 6;
+            this.button8.Text = "Çıkış Yap";
+            this.button8.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // button7
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
-            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(57, 77);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 32);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Bankalar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
+            this.button7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(57, 334);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(159, 32);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "Ayarlar";
+            this.button7.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // button6
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
-            this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(57, 129);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(159, 32);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Faturalar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
+            this.button6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(57, 282);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(159, 32);
+            this.button6.TabIndex = 1;
+            this.button6.Text = "Dashboard";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
+            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(57, 229);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(159, 32);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Banka Hareketleri";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -132,53 +145,41 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // button3
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
-            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(57, 229);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(159, 32);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Banka Hareketleri";
-            this.button5.UseVisualStyleBackColor = false;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
+            this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(57, 129);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(159, 32);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Faturalar";
+            this.button3.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // button2
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
-            this.button6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(57, 282);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(159, 32);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Dashboard";
-            this.button6.UseVisualStyleBackColor = false;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
+            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(57, 77);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(159, 32);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Bankalar";
+            this.button2.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // button1
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
-            this.button7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(57, 334);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(159, 32);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "Ayarlar";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(57, 384);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(159, 32);
-            this.button8.TabIndex = 6;
-            this.button8.Text = "Çıkış Yap";
-            this.button8.UseVisualStyleBackColor = false;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
+            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(57, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 32);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Kategoriler";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -210,6 +211,17 @@
             this.panel3.Size = new System.Drawing.Size(250, 134);
             this.panel3.TabIndex = 2;
             // 
+            // lblZiraatBankBalance
+            // 
+            this.lblZiraatBankBalance.AutoSize = true;
+            this.lblZiraatBankBalance.Font = new System.Drawing.Font("Calibri", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblZiraatBankBalance.ForeColor = System.Drawing.Color.White;
+            this.lblZiraatBankBalance.Location = new System.Drawing.Point(30, 63);
+            this.lblZiraatBankBalance.Name = "lblZiraatBankBalance";
+            this.lblZiraatBankBalance.Size = new System.Drawing.Size(198, 53);
+            this.lblZiraatBankBalance.TabIndex = 4;
+            this.lblZiraatBankBalance.Text = "0000.00 ₺";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -220,17 +232,6 @@
             this.label2.Size = new System.Drawing.Size(144, 28);
             this.label2.TabIndex = 3;
             this.label2.Text = "Ziraat Bankası";
-            // 
-            // lblZiraatBankBalance
-            // 
-            this.lblZiraatBankBalance.AutoSize = true;
-            this.lblZiraatBankBalance.Font = new System.Drawing.Font("Calibri", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblZiraatBankBalance.ForeColor = System.Drawing.Color.White;
-            this.lblZiraatBankBalance.Location = new System.Drawing.Point(30, 63);
-            this.lblZiraatBankBalance.Name = "lblZiraatBankBalance";
-            this.lblZiraatBankBalance.Size = new System.Drawing.Size(199, 54);
-            this.lblZiraatBankBalance.TabIndex = 4;
-            this.lblZiraatBankBalance.Text = "0000.00 ₺";
             // 
             // panel4
             // 
@@ -249,7 +250,7 @@
             this.lblİsBankBalance.ForeColor = System.Drawing.Color.White;
             this.lblİsBankBalance.Location = new System.Drawing.Point(30, 63);
             this.lblİsBankBalance.Name = "lblİsBankBalance";
-            this.lblİsBankBalance.Size = new System.Drawing.Size(199, 54);
+            this.lblİsBankBalance.Size = new System.Drawing.Size(198, 53);
             this.lblİsBankBalance.TabIndex = 4;
             this.lblİsBankBalance.Text = "0000.00 ₺";
             // 
@@ -281,7 +282,7 @@
             this.lblVakıfBankBalance.ForeColor = System.Drawing.Color.White;
             this.lblVakıfBankBalance.Location = new System.Drawing.Point(30, 63);
             this.lblVakıfBankBalance.Name = "lblVakıfBankBalance";
-            this.lblVakıfBankBalance.Size = new System.Drawing.Size(199, 54);
+            this.lblVakıfBankBalance.Size = new System.Drawing.Size(198, 53);
             this.lblVakıfBankBalance.TabIndex = 4;
             this.lblVakıfBankBalance.Text = "0000.00 ₺";
             // 
@@ -298,7 +299,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(229)))), ((int)(((byte)(56)))));
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.lblBankProcess5);
             this.groupBox1.Controls.Add(this.label11);
@@ -316,68 +317,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Son 5 Banka Hareketi:";
             // 
-            // lblBankProcess1
+            // label13
             // 
-            this.lblBankProcess1.AutoSize = true;
-            this.lblBankProcess1.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProcess1.Location = new System.Drawing.Point(6, 35);
-            this.lblBankProcess1.Name = "lblBankProcess1";
-            this.lblBankProcess1.Size = new System.Drawing.Size(71, 22);
-            this.lblBankProcess1.TabIndex = 0;
-            this.lblBankProcess1.Text = "Metin 1:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 63);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(755, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "---------------------------------------------------------------------------------" +
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(8, 239);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(755, 16);
+            this.label13.TabIndex = 9;
+            this.label13.Text = "---------------------------------------------------------------------------------" +
     "--------------------------------------------------------------------------------" +
     "--------------------------";
             // 
-            // label6
+            // lblBankProcess5
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 107);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(755, 16);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "---------------------------------------------------------------------------------" +
-    "--------------------------------------------------------------------------------" +
-    "--------------------------";
-            // 
-            // lblBankProcess2
-            // 
-            this.lblBankProcess2.AutoSize = true;
-            this.lblBankProcess2.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProcess2.Location = new System.Drawing.Point(6, 79);
-            this.lblBankProcess2.Name = "lblBankProcess2";
-            this.lblBankProcess2.Size = new System.Drawing.Size(71, 22);
-            this.lblBankProcess2.TabIndex = 2;
-            this.lblBankProcess2.Text = "Metin 2:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(8, 151);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(755, 16);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "---------------------------------------------------------------------------------" +
-    "--------------------------------------------------------------------------------" +
-    "--------------------------";
-            // 
-            // lblBankProcess3
-            // 
-            this.lblBankProcess3.AutoSize = true;
-            this.lblBankProcess3.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProcess3.Location = new System.Drawing.Point(7, 123);
-            this.lblBankProcess3.Name = "lblBankProcess3";
-            this.lblBankProcess3.Size = new System.Drawing.Size(71, 22);
-            this.lblBankProcess3.TabIndex = 4;
-            this.lblBankProcess3.Text = "Metin 3:";
+            this.lblBankProcess5.AutoSize = true;
+            this.lblBankProcess5.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBankProcess5.Location = new System.Drawing.Point(7, 211);
+            this.lblBankProcess5.Name = "lblBankProcess5";
+            this.lblBankProcess5.Size = new System.Drawing.Size(71, 22);
+            this.lblBankProcess5.TabIndex = 8;
+            this.lblBankProcess5.Text = "Metin 5:";
             // 
             // label11
             // 
@@ -400,26 +359,68 @@
             this.lblBankProcess4.TabIndex = 6;
             this.lblBankProcess4.Text = "Metin 4:";
             // 
-            // label13
+            // label9
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(8, 239);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(755, 16);
-            this.label13.TabIndex = 9;
-            this.label13.Text = "---------------------------------------------------------------------------------" +
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(8, 151);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(755, 16);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "---------------------------------------------------------------------------------" +
     "--------------------------------------------------------------------------------" +
     "--------------------------";
             // 
-            // lblBankProcess5
+            // lblBankProcess3
             // 
-            this.lblBankProcess5.AutoSize = true;
-            this.lblBankProcess5.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProcess5.Location = new System.Drawing.Point(7, 211);
-            this.lblBankProcess5.Name = "lblBankProcess5";
-            this.lblBankProcess5.Size = new System.Drawing.Size(71, 22);
-            this.lblBankProcess5.TabIndex = 8;
-            this.lblBankProcess5.Text = "Metin 5:";
+            this.lblBankProcess3.AutoSize = true;
+            this.lblBankProcess3.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBankProcess3.Location = new System.Drawing.Point(7, 123);
+            this.lblBankProcess3.Name = "lblBankProcess3";
+            this.lblBankProcess3.Size = new System.Drawing.Size(71, 22);
+            this.lblBankProcess3.TabIndex = 4;
+            this.lblBankProcess3.Text = "Metin 3:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 107);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(755, 16);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "---------------------------------------------------------------------------------" +
+    "--------------------------------------------------------------------------------" +
+    "--------------------------";
+            // 
+            // lblBankProcess2
+            // 
+            this.lblBankProcess2.AutoSize = true;
+            this.lblBankProcess2.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBankProcess2.Location = new System.Drawing.Point(6, 79);
+            this.lblBankProcess2.Name = "lblBankProcess2";
+            this.lblBankProcess2.Size = new System.Drawing.Size(71, 22);
+            this.lblBankProcess2.TabIndex = 2;
+            this.lblBankProcess2.Text = "Metin 2:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(7, 63);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(755, 16);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "---------------------------------------------------------------------------------" +
+    "--------------------------------------------------------------------------------" +
+    "--------------------------";
+            // 
+            // lblBankProcess1
+            // 
+            this.lblBankProcess1.AutoSize = true;
+            this.lblBankProcess1.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBankProcess1.Location = new System.Drawing.Point(6, 35);
+            this.lblBankProcess1.Name = "lblBankProcess1";
+            this.lblBankProcess1.Size = new System.Drawing.Size(71, 22);
+            this.lblBankProcess1.TabIndex = 0;
+            this.lblBankProcess1.Text = "Metin 1:";
             // 
             // FrmBanks
             // 
