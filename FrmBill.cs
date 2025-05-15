@@ -92,7 +92,9 @@ namespace FinancialCrm
 
         private void btnBillForm_Click(object sender, EventArgs e)
         {
-
+            FrmSpendings frm = new FrmSpendings();
+            frm.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -112,6 +114,11 @@ namespace FinancialCrm
             FrmCategory frm = new FrmCategory();
             frm.Show();
             this.Hide();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

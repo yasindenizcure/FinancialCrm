@@ -46,7 +46,7 @@ namespace FinancialCrm
 
         private void button4_Click(object sender, EventArgs e)
         {
-            FrmBill frm = new FrmBill();
+            FrmSpendings frm = new FrmSpendings();
             frm.Show();
             this.Hide();
         }
@@ -61,6 +61,13 @@ namespace FinancialCrm
         private void button1_Click(object sender, EventArgs e)
         {
             FrmCategory frm = new FrmCategory();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmBill frm = new FrmBill();
             frm.Show();
             this.Hide();
         }

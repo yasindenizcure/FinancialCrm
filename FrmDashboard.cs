@@ -99,7 +99,9 @@ namespace FinancialCrm
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            FrmSpendings frm = new FrmSpendings();
+            frm.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
