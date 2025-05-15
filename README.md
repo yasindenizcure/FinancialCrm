@@ -1,30 +1,29 @@
 # FinancialCrm
 🚀 C# Eğitim Kampı Final Projesi 🚀
+
 Merhaba! 👋
 Bu proje, Murat Yücedağ'ın C# Eğitim Kampı final projesidir. 🎓
+
 -------------------------------------------------
 🛠 Kullanılan Teknolojiler ve Uygulamalar
 💻 C#
-
 🖥 Windows Forms
-
 🗄 Microsoft SQL Server
-
 🔍 LINQ
-
 📦 Entity Framework
+
 -------------------------------------------------
 📋 Proje Hakkında
 Bu proje, Windows Forms ile geliştirilmiş, veritabanı bağlantısı için Microsoft SQL Server kullanan ve modern veri erişim teknikleri olarak LINQ ve Entity Framework’ü içeren bir masaüstü uygulamasıdır. 🏗️
-
 Amacım, eğitim sürecimde öğrendiğim temel konseptleri pekiştirmek ve gerçek bir uygulama geliştirmekti. 🙌
+
+
 -------------------------------------------------
 ⚡ Özellikler
 Kullanıcı dostu arayüz 🖱️
-
 Hızlı ve etkili veri işlemleri 📊
-
 Modern ve temiz kod yapısı 🧹
+
 -------------------------------------------------
 ![login](https://github.com/user-attachments/assets/f1457b47-c45b-473e-9f81-7efa352da74b)
 ![Dashboard](https://github.com/user-attachments/assets/c99ca402-649f-4dac-95d8-955fa903a4dc)
