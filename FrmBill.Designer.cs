@@ -173,6 +173,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Kategoriler";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -237,7 +238,7 @@
             this.btnBillList.BackColor = System.Drawing.SystemColors.Control;
             this.btnBillList.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBillList.ForeColor = System.Drawing.Color.Black;
-            this.btnBillList.Location = new System.Drawing.Point(71, 187);
+            this.btnBillList.Location = new System.Drawing.Point(72, 187);
             this.btnBillList.Name = "btnBillList";
             this.btnBillList.Size = new System.Drawing.Size(142, 32);
             this.btnBillList.TabIndex = 8;
