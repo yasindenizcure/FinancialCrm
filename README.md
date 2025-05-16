@@ -1,7 +1,8 @@
 # FinancialCrm
+
 🚀 C# Eğitim Kampı Final Projesi 🚀
 
-Merhaba! 👋
+Merhabalar! 👋
 Bu proje, Murat Yücedağ'ın C# Eğitim Kampı final projesidir. 🎓
 
 -------------------------------------------------
